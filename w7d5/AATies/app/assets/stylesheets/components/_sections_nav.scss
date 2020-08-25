@@ -1,0 +1,30 @@
+.sections-nav {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    
+}
+.sections-nav ul {
+    display: flex;
+    padding: 10px;
+    // flex-direction: column;
+    // align-items: center;
+    // flex-grow: 10;
+    // flex-shrink: 500px;
+}
+.sections-nav button{
+     color: black;
+    background-color: inherit;
+    font-size: 9px;
+    font-family: $sans-serif;
+    font-weight: 100;
+    border-color: black;
+    cursor: pointer;
+    
+}
+.sections-nav button:hover {
+	border-bottom: 1px solid
+}
+
+
+
